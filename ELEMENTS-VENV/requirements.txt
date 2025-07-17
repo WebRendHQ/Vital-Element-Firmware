@@ -1,0 +1,21 @@
+# Core requirements
+dataclasses==0.6
+pygame==2.5.2
+w1thermsensor==2.0.0
+
+# GPIO - One of these will be used:
+RPi.GPIO==0.7.1; platform_machine == 'armv7l' or platform_machine == 'aarch64'  # Only installs on Raspberry Pi
+gpiozero==1.6.2  # For development on other platforms
+
+# Testing
+pytest==7.4.3
+pytest-mock==3.12.0
+
+opencv-python
+Pillow
+
+transformers
+torch
+SpeechRecognition
+pyaudio
+pyttsx3

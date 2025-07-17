@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: ELEMENTS_VENV
+Version: 0.1
+Requires-Dist: pillow
+Requires-Dist: opencv-python
+Requires-Dist: pygame
+Dynamic: requires-dist
